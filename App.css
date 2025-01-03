@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3b60c5;
+  background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 30px;
+  width: 600px;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-header img.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.file-drop-zone {
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-drop-zone:hover {
+  border-color: #007bff;
+}
+
+.file-drop-zone p {
+  margin: 5px;
+  font-size: 14px;
+  color: #777;
+}
+
+.file-list {
+  margin-top: 10px;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.file-item span {
+  word-break: break-word;
+  flex: 1;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+button {
+  background-color: #002366;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ 
